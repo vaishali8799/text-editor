@@ -1,0 +1,32 @@
+.sideNav {
+    height: 100%;
+    width: 65px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(226, 230, 231);
+    overflow-x: hidden;
+    font-size: 10px;
+    
+  }
+  .sideNav-icon{
+      height: 48px;
+      width: 65px;
+      display: block;
+      background-color: #00b4d4;
+  }
+  .sideNav-template{
+      margin-left: 20px;
+      margin-top: 15px;
+      align-items: center;
+
+  }
+  .sideNav-template p{
+      margin-left: -10px;
+      margin-top: -4px;
+      color: rgb(56, 50, 112);
+  }
+  
+  
+  

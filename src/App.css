@@ -1,0 +1,126 @@
+
+.editorContainer{
+  height: 45px;
+  width: 95vw;
+  display: flex;
+  margin-left: 66px;
+  margin-top: 48px;
+  background-color:  rgb(226, 230, 231);
+}
+/* .rdw-block-wrapper{
+  margin: 20px !important;
+} */
+.rdw-block-dropdown {
+  border-radius: 5px !important;
+  margin: 0 6px !important;
+}
+.rdw-block-dropdown ::-webkit-scrollbar {
+  display: none !important;
+}
+.rdw-fontfamily-dropdown {
+  width: 110px !important;
+  border-radius: 5px !important;
+  margin: 0 6px !important;
+}
+.rdw-fontfamily-dropdown ::-webkit-scrollbar {
+  display: none !important;
+}
+.rdw-fontsize-dropdown {
+  min-width: 40px;
+  scroll-behavior: unset;
+  border-radius: 5px !important;
+  margin: 0 6px !important;
+}
+.rdw-fontsize-dropdown ::-webkit-scrollbar {
+  display: none !important;
+}
+.rdw-list-dropdown {
+  width: 40px !important;
+  z-index: 90;
+  border-radius: 5px !important;
+  margin: 0 6px !important;
+}
+.rdw-list-dropdown ::-webkit-scrollbar {
+  display: none !important;
+}
+
+.rdw-text-align-dropdown {
+  width: 40px !important;
+  z-index: 90;
+  border-radius: 5px !important;
+  margin: 0 6px !important;
+}
+.rdw-text-align-dropdown ::-webkit-scrollbar {
+  display: none !important;
+}
+.rdw-fontfamily-optionwrapper {
+  width: 110px !important;
+}
+
+.editor-right{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-size: 12px;
+  text-align: center;
+  align-items: center;
+  
+  
+
+}
+
+.save{
+  color: rgb(139, 143, 143);
+  border: 2px solid rgb(139, 143, 143);
+  border-radius: 4px;
+  padding: 3px 8px;
+  margin-right: 8px;
+}
+.proof{
+  color:rgb(47, 180, 204);
+  border: 2px solid;
+  border-radius: 4px;
+  padding: 3px 8px;
+  margin-right: 8px
+
+}
+.publish{
+  color: #fff;
+  border-radius: 4px; 
+  padding: 3px 8px;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,83,121,1) 12%, rgba(0,212,255,1) 86%);
+}
+.quote{
+  background-color: #fff;
+  height:31px ;
+  cursor: pointer;
+  width:40px ;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px !important;
+  margin: 0 6px !important;
+}
+
+.editor-class {
+  background-color:#fff;
+  width: 70vw;
+  height: 80vh !important;
+  padding: 1rem;
+  overflow: hidden !important;
+  margin:20px auto;
+  margin-left: 100px;
+  box-shadow: -1px 2px 27px -4px rgba(45,36,36,0.75);
+-webkit-box-shadow: -1px 2px 27px -4px rgba(45,36,36,0.75);
+-moz-box-shadow: -1px 2px 27px -4px rgba(45,36,36,0.75);
+ 
+}
+
+.toolbar-class {
+  width: 50vw;
+  color:rgb(56, 50, 112);
+  background-color: transparent !important;
+}
+
+
+

@@ -1,14 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 .header{
-    min-width: 95vw;
+    width: 100%;
     margin-left:66px;
     height: 48px;
     top:0;
     color: #fff !important;
     position: fixed;
+    display: block;
+    overflow: hidden !important;
+  
+    background-color:#00b4d4;
+}
+.header-wrapper{
     display: flex;
     justify-content:space-between;
-    background-color:#00b4d4;
 }
 .heading{
     margin-left: 20px;
@@ -20,7 +25,7 @@
 .right-header{
     display: flex;
     align-items: center;
-    margin-right: 20px;
+    margin-right: 120px; 
    
 }
 .upgrade{

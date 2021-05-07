@@ -1,15 +1,13 @@
-
 .editorContainer{
   height: 45px;
   width: 95vw;
   display: flex;
   margin-left: 66px;
   margin-top: 48px;
+  position: fixed;
   background-color:  rgb(226, 230, 231);
 }
-/* .rdw-block-wrapper{
-  margin: 20px !important;
-} */
+
 .rdw-block-dropdown {
   border-radius: 5px !important;
   margin: 0 6px !important;

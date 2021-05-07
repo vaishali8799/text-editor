@@ -6,6 +6,7 @@ const Header = () => {
     
     return (
         <div className="header">
+            <div className="header-wrapper">
             <div className="heading" >
                 <p> Editing Project heading</p>
             </div>
@@ -16,7 +17,8 @@ const Header = () => {
                 <div>
                     <img style={{height:'40px',width:'40px',marginTop:'10px'}}src={thumbnail} alt="user"/>
                 </div>
-            </div>
+                </div>
+                </div>
         </div>
     )
 }

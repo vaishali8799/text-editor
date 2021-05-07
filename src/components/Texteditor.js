@@ -19,11 +19,11 @@ import CustomStyleText from './CustomStyleText'
 const Texteditor = (props) => {
    
     const [editor, seteditor] = useState(() => EditorState.createEmpty(),);
-    //console.log(convertToRaw(editor.getCurrentContent()));
+
     return (
         <div className="editorContainer">
             
-            <div>
+            <div >
             <Editor editorState={editor}
                 editorClassName="editor-class"
                 toolbarClassName="toolbar-class"
@@ -63,7 +63,8 @@ const Texteditor = (props) => {
                 <div className="proof">SEND FOR PROOF</div>
                 <div className="publish">PUBLISH</div>
             </div>
-        </div>
+            </div>
+           
         
     )
 }
